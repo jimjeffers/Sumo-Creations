@@ -1,0 +1,68 @@
+/* =IPHONE
+   A mobile animated business card via iPhone!
+   ------------------------------------------------------ */
+   
+   /* For iPhone we hide the other sections of the site. */
+   .advanced #content > section {
+      display: none;
+   }
+
+   .advanced #content > section:first-child {
+      display: block;
+      left: 0;
+      top: 0;
+   }
+
+   /* Reposition the headlines */
+   #splash h1 {
+      font-size: 60px;
+      left: -22px;
+      top: 32px;
+      
+      transform: scale(0.75);
+        -moz-transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+   }
+
+   #splash h2 {
+      font-size: 11px;
+      left: -8px;
+      top: 266px;
+      
+      transform: scale(0.75);
+        -moz-transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+   }
+
+   /* Reposition the Sumowrestlers */
+   #balancing_act {
+      left: -300px;
+      top: -140px;
+   }
+   
+   #gateways {
+      left: 50px;
+      top: 0;
+   }
+
+   /* Repurpose the footer for iPhone removing copy and centering logo */
+   footer {
+      bottom: -6px;
+      left: 0;
+      margin-left: 0;
+      padding: 0 0 12px 0;
+      transform: scale(0.80);
+        -moz-transform: scale(0.80);
+        -webkit-transform: scale(0.80);
+      width: 100%;
+      z-index: 5;
+   }
+
+   footer aside {
+      display: none;
+   }
+
+   footer #logo {
+      display: block;
+      margin: 0 auto;
+   }
