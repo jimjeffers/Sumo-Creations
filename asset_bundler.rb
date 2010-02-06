@@ -14,7 +14,7 @@ paths = {
 # from the combination of files in the array.
 js_files = { 
   "cufon.min"     => %w(cufon-yui.js futura_500.font.js),
-  "jquery.min"    => %w(jquery-1-1.3.2.min.js jquery.easing.1.2.js jquery.scrollTo-min.js fullscreen-ui.js)
+  "jquery.min"    => %w(modernizr-1.1.min.js jquery-1-1.3.2.min.js jquery.easing.1.2.js jquery.scrollTo-min.js fullscreen-ui.js)
 }
 css_files = { 
   "screen.min"    => %w(reset.css screen.css),

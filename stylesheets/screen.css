@@ -33,15 +33,15 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
       width: 100%;
    }
    
-   .advanced #content > section {
+   .advanced #content section {
       position: absolute;
    }
    
-   #content > section {
+   #content section {
       display: none;
    }
    
-   #content > section:first-child,
+   #content section:first-child,
    .advanced #content > section {
       display: block;
    }
@@ -116,29 +116,195 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
       top: 200px;
       z-index: 0;
    }
-
-/* =ABOUT
-   ------------------------------------------------------ */
-   #about {
-      background: #f00;
-   }
    
 /* =SERVICES
    ------------------------------------------------------ */
    #services {
-      background: #ff0;
+      background: #f5b6b6;
+      background: -webkit-gradient(radial, 50% 50%, 300, 50% 0, 1000, from(rgba(255, 255, 255, 0.75)), to(rgba(245,182,182,1))) rgba(245,182,182,1) no-repeat fixed;
+   }
+   
+   #services header {
+      background: #fff;
+      background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#f0f0f0)); 
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        -o-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        -icab-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        -khtml-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        -moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+      height: 530px;
+      left: 100px;
+      padding: 4px;
+      position: absolute;
+      text-transform: uppercase;
+      top: 20px;
+      width: 285px;
+      z-index: 4;
+   }
+   
+   #services header:hover {
+      opacity: 0.75;
+   }
+   
+   .csstransforms #services header {
+      animation-name: stable;
+        -webkit-animation-name: stable; 
+        -webkit-animation-duration: 6s;
+        -webkit-animation-iteration-count: infinite;
+      transform: rotate(-20deg);
+        -moz-transform: rotate(-20deg);
+        -webkit-transform: rotate(-20deg);
+        -webkit-transform-origin: 0 100%;
+   }
+   
+   .no-cssanimations.csstransforms #services header {
+      left: 60px;
+   }
+   
+   .no-cssanimations.csstransforms #teacher {
+      left: 75px;
+   }
+   
+   .cssanimations #services header {
+      top: -20px;
+   }
+   
+   #services hgroup {
+      display: block;
+      padding: 10px;
+      position: relative;
+      height: 510px;
+      background: rgba(0,0,0,.1);
+   }
+   
+   #services h2 {
+      position: absolute;
+      left: 440px;
+      text-transform: uppercase;
+      top: 400px;
+      width: 500px;
+   }
+   
+   #services h2 strong {
+      display: block;
+      font-size: 28px;
+   }
+   
+   .webapps {
+      font-size: 28px;
+      left: 5px;
+      position: absolute;
+   }
+   
+   .mobile {
+      font-size: 33px;
+      left: 5px;
+      letter-spacing: 0;
+      position: absolute;
+      top: 200px;
+      width: 300px;
+   }
+   
+   .ux {
+      font-size: 200px;
+      left: -13px;
+      letter-spacing: 22px;
+      position: absolute;
+      top: 32px;
+   }
+   
+   .rapid {
+      font-size: 84px;
+      left: -2px;
+      letter-spacing: 10px;
+      position: absolute;
+      top: 230px;
+   }
+   
+   .prototyping {
+      font-size: 30px;
+      left: 3px;
+      letter-spacing: 6px;
+      position: absolute;
+      top: 300px;
+   }
+   
+   .rails {
+      font-size: 20px;
+      left: 3px;
+      letter-spacing: 10px;
+      position: absolute;
+      top: 324px;
+      width: 300px;
+   }
+   
+   .agile {
+      font-size: 22px;
+      left: 3px;
+      letter-spacing: 6px;
+      position: absolute;
+      top: 404px;
+      width: 300px;
+   }
+   
+   .test {
+      font-size: 28px;
+      left: 3px;
+      letter-spacing: 10px;
+      position: absolute;
+      top: 348px;
+      width: 300px;
+   }
+   
+   .development {
+      font-size: 33px;
+      left: 3px;
+      letter-spacing: 3px;
+      position: absolute;
+      top: 374px;
+      width: 300px;
+   }
+   
+   .interaction {
+      font-size: 39px;
+      left: 1px;
+      letter-spacing: 1px;
+      position: absolute;
+      top: 428px;
+      width: 300px;
+   }
+   
+   .design {
+      font-size: 72px;
+      left: -3px;
+      letter-spacing: 1px;
+      position: absolute;
+      top: 462px;
+      width: 300px;
+   }
+   
+   #trees {
+      display: block;
+      left: 300px;
+      opacity: 0.25;
+      position: absolute;
+      top: 100px;
    }
 
-/* =PORTFOLIO
+/* =CONTACT
    ------------------------------------------------------ */
-   #portfolio {
-      background: #9f0;
+   #contact {
+      background: #b4c7bd;
+      background: -webkit-gradient(radial, 50% 50%, 300, 50% 0, 1000, from(rgba(255, 255, 255, 0.75)), to(rgba(180,199,189,1))) rgba(180,199,189,1) no-repeat fixed;
    }
-
-/* =PROJECT
-   ------------------------------------------------------ */
-   #project {
-      background: #0f9;
+   
+   #temple {
+      display: block;
+      left: 100px;
+      opacity: 0.25;
+      position: absolute;
+      top: 200px;
    }
 
 /* =FOOTER
@@ -188,6 +354,10 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
         -webkit-animation-iteration-count: infinite;
       width: 500px;
       z-index: 2;
+   }
+   
+   .no-csstransforms #balancing_act {
+      top: -80px;
    }
    
    @-webkit-keyframes rocking {
@@ -441,6 +611,10 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
    }
    
    /* Handstander */
+   .no-csstransforms #hand_stander {
+      display: none;
+   }
+   
    #hand_stander {
       left: 500px;
       top: 60px;
@@ -586,6 +760,10 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
       z-index: 2;
    }
    
+   .no-csstransforms #hanger {
+      left: 550px;
+   }
+   
    #hanger li.arm {
       transform: rotate(40deg);
         -moz-transform: rotate(40deg);
@@ -632,7 +810,6 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
       }
    }
    
-   /* Hanger animations... */
    @-webkit-keyframes nodding {
       from {
         -webkit-transform: rotate(30deg);
@@ -646,4 +823,83 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
         -webkit-transform: rotate(30deg);
         -webkit-animation-timing-function: linear;
       }
+   }
+   
+   /* Teacher */
+   #teacher {
+      animation-name: struggle;
+        -webkit-animation-name: struggle; 
+        -webkit-animation-duration: 6s;
+        -webkit-animation-iteration-count: infinite;
+      left: 42px;
+      top: 510px;
+      transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+      z-index: 5;
+   }
+   
+   .cssanimations #services #teacher {
+      top: 480px;
+   }
+   
+   #teacher .torso {
+      transform: rotate(-20deg);
+        -moz-transform: rotate(-20deg);
+        -webkit-transform: rotate(-20deg);
+   }
+   
+   #teacher li.diaper {
+      animation-name: struggle;
+        -webkit-animation-name: struggle; 
+        -webkit-animation-duration: 1s;
+        -webkit-animation-iteration-count: infinite;
+   }
+   
+   #teacher li.head,
+   #teacher li.front_leg,
+   #teacher li.back_leg,
+   #teacher li.torso,
+   #teacher li.arm {
+      animation-name: struggle;
+        -webkit-animation-name: struggle; 
+        -webkit-animation-duration: 3s;
+        -webkit-animation-iteration-count: infinite;
+   }
+   
+   #teacher li.front_leg,
+   #teacher li.back_leg,
+   #teacher li.arm {
+      animation-name: stable;
+        -webkit-animation-name: stable;
+        -webkit-animation-duration: 3s;
+   }
+   
+   #teacher li.arm {
+      -webkit-animation-duration: 6s;
+   }
+   
+   #teacher li.head {
+        -webkit-animation-duration: 1s;
+   }
+   
+   .csstransforms #teacher li.head {
+      left: -14px;
+      top: 9px;
+   }
+   
+   #teacher li.front_leg,
+   #teacher li.back_leg {
+      -webkit-animation-duration: 2s;
+   }
+   
+   #teacher li.back_leg {
+      animation-name: counter-balance;
+        -webkit-animation-name: counter-balance;
+   }
+   
+   #teacher li.front_leg,
+   #teacher li.back_leg,{
+      animation-name: stable;
+        -webkit-animation-name: stable;
    }

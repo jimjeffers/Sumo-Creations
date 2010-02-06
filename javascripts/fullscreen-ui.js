@@ -3,7 +3,7 @@ $(document).ready(function() {
    var contents = $('div#content section');
    buildMatrix(contents);
    $(window).resize(function(){
-      buildMatrix(contents)
+      buildMatrix(contents);
    });
    contents.click(function() {
       var next = $(this).next().get(0);
