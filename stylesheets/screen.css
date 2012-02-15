@@ -86,7 +86,7 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
    #splash h1 span.all {
       font-size: 3.5rem;
       left: 0.8rem;
-      top: 0;
+      top: 0.55rem;
    }
    
    #splash h1 span.all {
@@ -94,6 +94,7 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
    }
    
    #splash h1 span.big {
+      left: 0.11rem;
       font-size: 13rem;
       top: 7rem;
    }
@@ -105,8 +106,9 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
    }
    
    #splash h2 {
-      font-size: 0.74rem;
+      font-size: 0.6rem;
       left: 115px;
+      letter-spacing: 0.2em;
       top: 400px;
    }
    
@@ -332,10 +334,10 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
    footer aside {
       color: #999;
       left: 290px;
-      font-size: 12px;
+      font-size: 0.9rem;
       line-height: 1.25em;
       position: absolute;
-      top: 20px;
+      top: 10px;
       width: 300px;
    }
    
