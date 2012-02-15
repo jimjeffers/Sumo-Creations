@@ -1,3 +1,6 @@
+# B.b.b.asic Asset Bundling
+# Written by J. Jeffers
+
 # Joins multiple assets into a single file. 
 # Just like asset caching in Ruby on Rails
 # Except we also minify with the yui-compressor!
@@ -12,8 +15,7 @@ paths = {
 
 # Define your files. The key is the name of the file that will be generated 
 # from the combination of files in the array.
-js_files = { 
-  "cufon.min"     => %w(cufon-yui.js futura_500.font.js),
+js_files = {
   "jquery.min"    => %w(modernizr-1.1.min.js jquery-1-1.3.2.min.js jquery.easing.1.2.js jquery.scrollTo-min.js fullscreen-ui.js)
 }
 css_files = { 
