@@ -5,14 +5,6 @@ $(document).ready(function() {
    $(window).resize(function(){
       buildMatrix(contents);
    });
-   contents.click(function() {
-      var next = $(this).next().get(0);
-      if(next) {
-         $('body').scrollTo(next,800);
-      } else {
-         $('body').scrollTo($(this).siblings().get(0),800);
-      }
-   });
 });
 
 function buildMatrix (contents) {
