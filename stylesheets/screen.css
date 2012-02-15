@@ -63,6 +63,7 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
       position: absolute;
       left: 100px;
       letter-spacing: -0.05em;
+      line-height: 1em;
       text-transform: uppercase;
       font-size: 1em;
       z-index: 1;
@@ -76,37 +77,37 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
    }
    
    #splash h1 {
-      font-size: 60px;
+      font-size: 1rem;
       left: 100px;
       top: 100px;
    }
    
    #splash h1 span.behind,
    #splash h1 span.all {
-      font-size: 62px;
-      left: 15px;
+      font-size: 3.5rem;
+      left: 0.8rem;
       top: 0;
    }
    
    #splash h1 span.all {
-      left: 250px;
+      left: 4.5em;
    }
    
    #splash h1 span.big {
-      font-size: 210px;
-      top: 48px;
+      font-size: 13rem;
+      top: 7rem;
    }
    
    #splash h1 span.ideas {
-      font-size: 118px;
-      left: 10px;
-      top: 220px;
+      font-size: 7.3rem;
+      left: 0.6rem;
+      top: 15rem;
    }
    
    #splash h2 {
-      font-size: 11px;
-      left: 120px;
-      top: 416px;
+      font-size: 0.74rem;
+      left: 115px;
+      top: 400px;
    }
    
    #gateways {
