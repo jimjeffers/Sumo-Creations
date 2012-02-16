@@ -1476,9 +1476,9 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
       }
 
       #gateways {
-         -moz-transform: translate(-150px,200px);
-          -webkit-transform: translate(-150px,200px);
-        transform: translate(-150px,200px);
+         -moz-transform: translate(-150px,50px);
+          -webkit-transform: translate(-150px,50px);
+        transform: translate(-150px,50px);
       }
     }
 
@@ -1590,6 +1590,24 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
     }
     
     @media only screen and (max-height: 300px) {
+      #splash header {
+          -moz-transform: scale(0.4);
+          -webkit-transform: scale(0.4) translate(-80px,-50px);
+        transform: scale(0.4);
+      }
+
+      #splash #characters {
+          -moz-transform: scale(0.4);
+          -webkit-transform: scale(0.4) translate(-120px,-90px);
+        transform: scale(0.4);
+      }
+
+      #gateways {
+          -moz-transform: scale(0.5);
+          -webkit-transform: scale(0.5) translate(-950px,-460px);
+        transform: scale(0.5);
+      }
+      
       footer {
           -moz-transform: translate(0,100px);
           -webkit-transform: translate(0,100px);
