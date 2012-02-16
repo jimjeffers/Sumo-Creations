@@ -1,0 +1,2 @@
+exclude: Gemfile, Gemfile.lock, Procfile, README.md, *.rb, *.yml
+permalink: /:title
