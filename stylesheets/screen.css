@@ -1443,6 +1443,7 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
     #splash header,
     #splash #characters,
     #gateways,
+    footer,
     footer aside,
     footer img {
         -moz-transition: all 0.5s ease-out;
@@ -1585,5 +1586,13 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
           -moz-transform: scale(0.5);
           -webkit-transform: scale(0.5) translate(-950px,-260px);
         transform: scale(0.5);
+      }
+    }
+    
+    @media only screen and (max-height: 400px) {
+      footer {
+          -moz-transform: translate(0,100px);
+          -webkit-transform: translate(0,100px);
+        transform: translate(0,100px);
       }
     }
