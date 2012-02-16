@@ -19,8 +19,7 @@ js_files = {
   "jquery.min"    => %w(modernizr-1.1.min.js jquery-1-1.3.2.min.js jquery.easing.1.2.js jquery.scrollTo-min.js fullscreen-ui.js)
 }
 css_files = { 
-  "screen.min"    => %w(reset.css screen.css),
-  "iphone.min"    => %w(iphone.css)
+  "screen.min"    => %w(reset.css screen.css)
 }
         
 # Define the javascripts that you'd like to have minified.
