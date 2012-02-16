@@ -1512,9 +1512,9 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
       }
       
       footer aside {
-          -moz-transform: scale(0.75) translate(0,-8px);
-          -webkit-transform: scale(0.75) translate(0,-8px);
-        transform: scale(0.75) translate(0,-8px);
+          -moz-transform: scale(0.75) translate(0,-4px);
+          -webkit-transform: scale(0.75) translate(0,-4px);
+        transform: scale(0.75) translate(0,-4px);
         
           -ms-transform-origin: 100% 50%;
           -o-transform-origin: 100% 50%;
@@ -1555,15 +1555,16 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
       }
       
       footer aside {
-          -moz-transform: scale(0.65) translate(0,-15px);
-          -webkit-transform: scale(0.65) translate(0,-15px);
-        transform: scale(0.65) translate(0,-15px);
+          -moz-transform: scale(0.65) translate(0,-8px);
+          -webkit-transform: scale(0.65) translate(0,-8px);
+        transform: scale(0.65) translate(0,-8px);
         
           -ms-transform-origin: 100% 50%;
           -o-transform-origin: 100% 50%;
           -moz-transform-origin: 100% 50%;
           -webkit-transform-origin: 100% 50%;
         transform-origin: 100% 50%;
+        width: 200px;
       }
     }
     
