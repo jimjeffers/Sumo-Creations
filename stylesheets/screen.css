@@ -115,6 +115,10 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
      letter-spacing: 0.2em;
    }
    
+   .touch #splash h2 {
+      letter-spacing: 0em;
+    }
+   
    #gateways {
       left: 450px;
       opacity: .5;
