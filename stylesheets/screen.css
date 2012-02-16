@@ -108,8 +108,11 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
    #splash h2 {
       font-size: 0.6rem;
       left: 115px;
-      letter-spacing: 0.2em;
       top: 400px;
+   }
+   
+   .no-touch #splash h2 {
+     letter-spacing: 0.2em;
    }
    
    #gateways {
