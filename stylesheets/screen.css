@@ -1591,15 +1591,15 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
     
     @media only screen and (max-height: 300px) {
       #splash header {
-          -moz-transform: scale(0.4);
-          -webkit-transform: scale(0.4) translate(-80px,-50px);
-        transform: scale(0.4);
+          -moz-transform: scale(0.65);
+          -webkit-transform: scale(0.65) translate(-80px,-50px);
+        transform: scale(0.65);
       }
 
       #splash #characters {
-          -moz-transform: scale(0.4);
-          -webkit-transform: scale(0.4) translate(-120px,-90px);
-        transform: scale(0.4);
+          -moz-transform: scale(0.65);
+          -webkit-transform: scale(0.65) translate(-120px,-90px);
+        transform: scale(0.65);
       }
 
       #gateways {
