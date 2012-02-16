@@ -1446,6 +1446,7 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
     footer,
     footer aside,
     footer img {
+        -ms-transition: all 0.5s ease-out;
         -moz-transition: all 0.5s ease-out;
         -o-transition: all 0.5s ease-out;
         -webkit-transition: all 0.5s ease-out;
@@ -1464,19 +1465,25 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
 
     @media only screen and (max-width: 780px) {
       #splash header {
+          -ms-transform: translate(-80px,200px);
+          -o-transform: translate(-80px,200px);
           -moz-transform: translate(-80px,200px);
           -webkit-transform: translate(-80px,200px);
         transform: translate(-80px,200px);
       }
 
       #splash #characters {
+          -ms-transform: translate(-100px,200px);
+          -o-transform: translate(-100px,200px);
           -moz-transform: translate(-100px,200px);
           -webkit-transform: translate(-100px,200px);
         transform: translate(-100px,200px);
       }
 
       #gateways {
-         -moz-transform: translate(-150px,50px);
+          -ms-transform: translate(-150px,50px);
+          -o-transform: translate(-150px,50px);
+          -moz-transform: translate(-150px,50px);
           -webkit-transform: translate(-150px,50px);
         transform: translate(-150px,50px);
       }
@@ -1484,24 +1491,32 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
 
     @media only screen and (max-width: 620px) {
       #splash header {
-          -moz-transform: scale(0.75);
+          -ms-transform: scale(0.75) translate(-80px,150px);
+          -o-transform: scale(0.75) translate(-80px,150px);
+          -moz-transform: scale(0.75) translate(-80px,150px);
           -webkit-transform: scale(0.75) translate(-80px,150px);
-        transform: scale(0.75);
+        transform: scale(0.75) translate(-80px,150px);
       }
 
       #splash #characters {
+          -ms-transform: scale(0.75);
+          -o-transform: scale(0.75);
           -moz-transform: scale(0.75);
           -webkit-transform: scale(0.75) translate(-100px,150px);
-        transform: scale(0.75);
+        transform: scale(0.75) translate(-100px,150px);
       }
 
       #gateways {
-           -moz-transform: scale(0.75);
+           -ms-transform: scale(0.75) translate(-250px,50px);
+           -o-transform: scale(0.75) translate(-250px,50px);
+           -moz-transform: scale(0.75) translate(-250px,50px);
            -webkit-transform: scale(0.75) translate(-250px,50px);
-         transform: scale(0.75);
+         transform: scale(0.75) translate(-250px,50px);
       }
       
       footer img {
+          -ms-transform: scale(0.75);
+          -o-transform: scale(0.75);
           -moz-transform: scale(0.75);
           -webkit-transform: scale(0.75);
         transform: scale(0.75);
@@ -1513,6 +1528,8 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
       }
       
       footer aside {
+          -ms-transform: scale(0.75) translate(0,-4px);
+          -o-transform: scale(0.75) translate(0,-4px);
           -moz-transform: scale(0.75) translate(0,-4px);
           -webkit-transform: scale(0.75) translate(0,-4px);
         transform: scale(0.75) translate(0,-4px);
@@ -1527,24 +1544,32 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
 
     @media only screen and (max-width: 490px) {
       #splash header {
-          -moz-transform: scale(0.65);
+          -ms-transform: scale(0.65) translate(-80px,70px);
+          -o-transform: scale(0.65) translate(-80px,70px);
+          -moz-transform: scale(0.65) translate(-80px,70px);
           -webkit-transform: scale(0.65) translate(-80px,70px);
         transform: scale(0.65);
       }
 
       #splash #characters {
-          -moz-transform: scale(0.65);
+          -ms-transform: scale(0.65) translate(-120px,70px);
+          -o-transform: scale(0.65) translate(-120px,70px);
+          -moz-transform: scale(0.65) translate(-120px,70px);
           -webkit-transform: scale(0.65) translate(-120px,70px);
         transform: scale(0.65);
       }
 
       #gateways {
-          -moz-transform: scale(0.5);
+          -ms-transform: scale(0.5) translate(-950px,-150px);
+          -o-transform: scale(0.5) translate(-950px,-150px);
+          -moz-transform: scale(0.5) translate(-950px,-150px);
           -webkit-transform: scale(0.5) translate(-950px,-150px);
         transform: scale(0.5);
       }
       
       footer img {
+          -ms-transform: scale(0.5);
+          -o-transform: scale(0.5);
           -moz-transform: scale(0.5);
           -webkit-transform: scale(0.5);
         transform: scale(0.5);
@@ -1556,6 +1581,8 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
       }
       
       footer aside {
+          -o-transform: scale(0.65) translate(0,-8px);
+          -ms-transform: scale(0.65) translate(0,-8px);
           -moz-transform: scale(0.65) translate(0,-8px);
           -webkit-transform: scale(0.65) translate(0,-8px);
         transform: scale(0.65) translate(0,-8px);
@@ -1571,44 +1598,58 @@ All content copyright 2009 Sumo Creaitons LLC. All rights reserved.
     
     @media only screen and (max-height: 440px) {
       #splash header {
-          -moz-transform: scale(0.65);
+          -o-transform: scale(0.65) translate(-80px,-50px);
+          -ms-transform: scale(0.65) translate(-80px,-50px);
+          -moz-transform: scale(0.65) translate(-80px,-50px);
           -webkit-transform: scale(0.65) translate(-80px,-50px);
-        transform: scale(0.65);
+        transform: scale(0.65) translate(-80px,-50px);
       }
 
       #splash #characters {
-          -moz-transform: scale(0.65);
+          -o-transform: scale(0.65) translate(-120px,-90px);
+          -ms-transform: scale(0.65) translate(-120px,-90px);
+          -moz-transform: scale(0.65) translate(-120px,-90px);
           -webkit-transform: scale(0.65) translate(-120px,-90px);
-        transform: scale(0.65);
+        transform: scale(0.65) translate(-120px,-90px);
       }
 
       #gateways {
-          -moz-transform: scale(0.5);
+          -o-transform: scale(0.5) translate(-950px,-260px);
+          -ms-transform: scale(0.5) translate(-950px,-260px);
+          -moz-transform: scale(0.5) translate(-950px,-260px);
           -webkit-transform: scale(0.5) translate(-950px,-260px);
-        transform: scale(0.5);
+        transform: scale(0.5) translate(-950px,-260px);
       }
     }
     
     @media only screen and (max-height: 300px) {
       #splash header {
-          -moz-transform: scale(0.65);
+          -o-transform: scale(0.65) translate(-80px,-50px);
+          -ms-transform: scale(0.65) translate(-80px,-50px);
+          -moz-transform: scale(0.65) translate(-80px,-50px);
           -webkit-transform: scale(0.65) translate(-80px,-50px);
-        transform: scale(0.65);
+        transform: scale(0.65) translate(-80px,-50px);
       }
 
       #splash #characters {
-          -moz-transform: scale(0.65);
+          -o-transform: scale(0.65) translate(-120px,-90px);
+          -ms-transform: scale(0.65) translate(-120px,-90px);
+          -moz-transform: scale(0.65) translate(-120px,-90px);
           -webkit-transform: scale(0.65) translate(-120px,-90px);
-        transform: scale(0.65);
+        transform: scale(0.65) translate(-120px,-90px);
       }
 
       #gateways {
-          -moz-transform: scale(0.5);
+          -ms-transform: scale(0.5) translate(-950px,-460px);
+          -o-transform: scale(0.5) translate(-950px,-460px);
+          -moz-transform: scale(0.5) translate(-950px,-460px);
           -webkit-transform: scale(0.5) translate(-950px,-460px);
-        transform: scale(0.5);
+        transform: scale(0.5) translate(-950px,-460px);
       }
       
       footer {
+          -ms-transform: translate(0,100px);
+          -o-transform: translate(0,100px);
           -moz-transform: translate(0,100px);
           -webkit-transform: translate(0,100px);
         transform: translate(0,100px);
